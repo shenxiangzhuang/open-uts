@@ -1,0 +1,709 @@
+[
+  {
+    "id": "001_NAB_id_1_Facility_tr_1007_1st_2014",
+    "source": "NAB",
+    "train_end": 1007,
+    "matches": [
+      {
+        "file": "realKnownCause/ec2_request_latency_system_failure.csv",
+        "offset": 1,
+        "original_points": 4032,
+        "max_abs_value_difference": 1.4210854715202004e-14,
+        "raw_window_label_mismatch_ranges": [
+          [
+            2013,
+            2014
+          ],
+          [
+            3327,
+            3328
+          ],
+          [
+            3955,
+            3956
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          603
+        ],
+        "affected_train": 603,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "002_NAB_id_2_WebService_tr_1500_1st_4106",
+    "source": "NAB",
+    "train_end": 1500,
+    "matches": [
+      {
+        "file": "realTweets/Twitter_volume_GOOG.csv",
+        "offset": 1,
+        "original_points": 15842,
+        "max_abs_value_difference": 0.0,
+        "raw_window_label_mismatch_ranges": [
+          [
+            4105,
+            4106
+          ]
+        ],
+        "probation_end_original_exclusive": 750,
+        "proposed_unknown_range": [
+          0,
+          749
+        ],
+        "affected_train": 749,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "005_NAB_id_5_Traffic_tr_594_1st_1645",
+    "source": "NAB",
+    "train_end": 594,
+    "matches": [
+      {
+        "file": "realTraffic/occupancy_6005.csv",
+        "offset": 1,
+        "original_points": 2380,
+        "max_abs_value_difference": 3.552713678800501e-15,
+        "raw_window_label_mismatch_ranges": [
+          [
+            1644,
+            1645
+          ]
+        ],
+        "probation_end_original_exclusive": 357,
+        "proposed_unknown_range": [
+          0,
+          356
+        ],
+        "affected_train": 356,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "006_NAB_id_6_Traffic_tr_2579_1st_5839",
+    "source": "NAB",
+    "train_end": 2579,
+    "matches": [
+      {
+        "file": "realKnownCause/nyc_taxi.csv",
+        "offset": 1,
+        "original_points": 10320,
+        "max_abs_value_difference": 0.0,
+        "raw_window_label_mismatch_ranges": [
+          [
+            5838,
+            5839
+          ],
+          [
+            7079,
+            7080
+          ],
+          [
+            8422,
+            8423
+          ],
+          [
+            8730,
+            8731
+          ],
+          [
+            9976,
+            9977
+          ]
+        ],
+        "probation_end_original_exclusive": 750,
+        "proposed_unknown_range": [
+          0,
+          749
+        ],
+        "affected_train": 749,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "008_NAB_id_8_Synthetic_tr_1007_1st_2734",
+    "source": "NAB",
+    "train_end": 1007,
+    "matches": [
+      {
+        "file": "artificialWithAnomaly/art_load_balancer_spikes.csv",
+        "offset": 1,
+        "original_points": 4032,
+        "max_abs_value_difference": 1.3322676295501878e-15,
+        "raw_window_label_mismatch_ranges": [
+          [
+            2733,
+            2734
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          603
+        ],
+        "affected_train": 603,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "009_NAB_id_9_Traffic_tr_500_1st_438",
+    "source": "NAB",
+    "train_end": 500,
+    "matches": [
+      {
+        "file": "realTraffic/TravelTime_451.csv",
+        "offset": 1,
+        "original_points": 2162,
+        "max_abs_value_difference": 0.0,
+        "raw_window_label_mismatch_ranges": [
+          [
+            437,
+            438
+          ]
+        ],
+        "probation_end_original_exclusive": 324,
+        "proposed_unknown_range": [
+          0,
+          323
+        ],
+        "affected_train": 323,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "010_NAB_id_10_WebService_tr_500_1st_271",
+    "source": "NAB",
+    "train_end": 500,
+    "matches": [
+      {
+        "file": "realAdExchange/exchange-3_cpc_results.csv",
+        "offset": 1,
+        "original_points": 1538,
+        "max_abs_value_difference": 2.220446049250313e-16,
+        "raw_window_label_mismatch_ranges": [
+          [
+            270,
+            271
+          ],
+          [
+            412,
+            413
+          ],
+          [
+            951,
+            952
+          ]
+        ],
+        "probation_end_original_exclusive": 230,
+        "proposed_unknown_range": [
+          0,
+          229
+        ],
+        "affected_train": 229,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "011_NAB_id_11_Facility_tr_1007_1st_1526",
+    "source": "NAB",
+    "train_end": 1007,
+    "matches": [
+      {
+        "file": "realAWSCloudwatch/ec2_cpu_utilization_825cc2.csv",
+        "offset": 1,
+        "original_points": 4032,
+        "max_abs_value_difference": 4.263256414560601e-14,
+        "raw_window_label_mismatch_ranges": [
+          [
+            1525,
+            1526
+          ],
+          [
+            1868,
+            2000
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          603
+        ],
+        "affected_train": 603,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "013_NAB_id_13_Traffic_tr_623_1st_2084",
+    "source": "NAB",
+    "train_end": 623,
+    "matches": [
+      {
+        "file": "realTraffic/speed_t4013.csv",
+        "offset": 1,
+        "original_points": 2495,
+        "max_abs_value_difference": 0.0,
+        "raw_window_label_mismatch_ranges": [
+          [
+            2083,
+            2084
+          ],
+          [
+            2334,
+            2335
+          ]
+        ],
+        "probation_end_original_exclusive": 374,
+        "proposed_unknown_range": [
+          0,
+          373
+        ],
+        "affected_train": 373,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "014_NAB_id_14_WebService_tr_500_1st_1045",
+    "source": "NAB",
+    "train_end": 500,
+    "matches": [
+      {
+        "file": "realAdExchange/exchange-3_cpm_results.csv",
+        "offset": 1,
+        "original_points": 1538,
+        "max_abs_value_difference": 4.440892098500626e-16,
+        "raw_window_label_mismatch_ranges": [
+          [
+            1044,
+            1045
+          ]
+        ],
+        "probation_end_original_exclusive": 230,
+        "proposed_unknown_range": [
+          0,
+          229
+        ],
+        "affected_train": 229,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "015_NAB_id_15_Synthetic_tr_1007_1st_2787",
+    "source": "NAB",
+    "train_end": 1007,
+    "matches": [
+      {
+        "file": "artificialWithAnomaly/art_daily_jumpsdown.csv",
+        "offset": 1,
+        "original_points": 4032,
+        "max_abs_value_difference": 2.842170943040401e-14,
+        "raw_window_label_mismatch_ranges": [
+          [
+            2786,
+            2787
+          ],
+          [
+            3189,
+            3300
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          603
+        ],
+        "affected_train": 603,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "016_NAB_id_16_Environment_tr_1816_1st_3540",
+    "source": "NAB",
+    "train_end": 1816,
+    "matches": [
+      {
+        "file": "realKnownCause/ambient_temperature_system_failure.csv",
+        "offset": 1,
+        "original_points": 7267,
+        "max_abs_value_difference": 2.842170943040401e-14,
+        "raw_window_label_mismatch_ranges": [
+          [
+            3539,
+            3540
+          ],
+          [
+            5998,
+            5999
+          ]
+        ],
+        "probation_end_original_exclusive": 750,
+        "proposed_unknown_range": [
+          0,
+          749
+        ],
+        "affected_train": 749,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "017_NAB_id_17_Synthetic_tr_1007_1st_1805",
+    "source": "NAB",
+    "train_end": 1007,
+    "matches": [
+      {
+        "file": "artificialWithAnomaly/art_increase_spike_density.csv",
+        "offset": 1,
+        "original_points": 4032,
+        "max_abs_value_difference": 0.0,
+        "raw_window_label_mismatch_ranges": [
+          [
+            1804,
+            1805
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          603
+        ],
+        "affected_train": 603,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "018_NAB_id_18_Facility_tr_500_1st_669",
+    "source": "NAB",
+    "train_end": 500,
+    "matches": [
+      {
+        "file": "realKnownCause/rogue_agent_key_hold.csv",
+        "offset": 1,
+        "original_points": 1882,
+        "max_abs_value_difference": 1.1102230246251565e-16,
+        "raw_window_label_mismatch_ranges": [
+          [
+            668,
+            669
+          ],
+          [
+            1239,
+            1240
+          ]
+        ],
+        "probation_end_original_exclusive": 282,
+        "proposed_unknown_range": [
+          0,
+          281
+        ],
+        "affected_train": 281,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "019_NAB_id_19_Facility_tr_1007_1st_1171",
+    "source": "NAB",
+    "train_end": 1007,
+    "matches": [
+      {
+        "file": "realAWSCloudwatch/ec2_cpu_utilization_5f5533.csv",
+        "offset": 1,
+        "original_points": 4032,
+        "max_abs_value_difference": 1.4210854715202004e-14,
+        "raw_window_label_mismatch_ranges": [
+          [
+            1170,
+            1171
+          ],
+          [
+            2829,
+            2830
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          603
+        ],
+        "affected_train": 603,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "020_NAB_id_20_Synthetic_tr_1007_1st_2679",
+    "source": "NAB",
+    "train_end": 1007,
+    "matches": [
+      {
+        "file": "artificialWithAnomaly/art_daily_flatmiddle.csv",
+        "offset": 1,
+        "original_points": 4032,
+        "max_abs_value_difference": 2.842170943040401e-14,
+        "raw_window_label_mismatch_ranges": [
+          [
+            2678,
+            2679
+          ],
+          [
+            3081,
+            3300
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          603
+        ],
+        "affected_train": 603,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "022_NAB_id_22_Facility_tr_1007_1st_2980",
+    "source": "NAB",
+    "train_end": 1007,
+    "matches": [
+      {
+        "file": "realAWSCloudwatch/rds_cpu_utilization_cc0c53.csv",
+        "offset": 1,
+        "original_points": 4032,
+        "max_abs_value_difference": 3.552713678800501e-15,
+        "raw_window_label_mismatch_ranges": [
+          [
+            2979,
+            2980
+          ],
+          [
+            3180,
+            3300
+          ],
+          [
+            3478,
+            3479
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          603
+        ],
+        "affected_train": 603,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "023_NAB_id_23_Facility_tr_4512_1st_16551",
+    "source": "NAB",
+    "train_end": 4512,
+    "matches": [
+      {
+        "file": "realKnownCause/cpu_utilization_asg_misconfiguration.csv",
+        "offset": 1,
+        "original_points": 18050,
+        "max_abs_value_difference": 4.263256414560601e-14,
+        "raw_window_label_mismatch_ranges": [
+          [
+            16550,
+            16551
+          ]
+        ],
+        "probation_end_original_exclusive": 750,
+        "proposed_unknown_range": [
+          0,
+          749
+        ],
+        "affected_train": 749,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "024_NAB_id_24_Synthetic_tr_1007_1st_2787",
+    "source": "NAB",
+    "train_end": 1007,
+    "matches": [
+      {
+        "file": "artificialWithAnomaly/art_daily_jumpsup.csv",
+        "offset": 1,
+        "original_points": 4032,
+        "max_abs_value_difference": 5.684341886080802e-14,
+        "raw_window_label_mismatch_ranges": [
+          [
+            2786,
+            2787
+          ],
+          [
+            3189,
+            3300
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          603
+        ],
+        "affected_train": 603,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "025_NAB_id_25_WebService_tr_3958_1st_4614",
+    "source": "NAB",
+    "train_end": 3958,
+    "matches": [
+      {
+        "file": "realTweets/Twitter_volume_FB.csv",
+        "offset": 1,
+        "original_points": 15833,
+        "max_abs_value_difference": 0.0,
+        "raw_window_label_mismatch_ranges": [
+          [
+            4613,
+            4614
+          ],
+          [
+            9925,
+            9926
+          ]
+        ],
+        "probation_end_original_exclusive": 750,
+        "proposed_unknown_range": [
+          0,
+          749
+        ],
+        "affected_train": 749,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "026_NAB_id_26_Traffic_tr_624_1st_2261",
+    "source": "NAB",
+    "train_end": 624,
+    "matches": [
+      {
+        "file": "realTraffic/speed_6005.csv",
+        "offset": 1,
+        "original_points": 2500,
+        "max_abs_value_difference": 0.0,
+        "raw_window_label_mismatch_ranges": [
+          [
+            2260,
+            2261
+          ]
+        ],
+        "probation_end_original_exclusive": 375,
+        "proposed_unknown_range": [
+          0,
+          374
+        ],
+        "affected_train": 374,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "027_NAB_id_27_Facility_tr_757_1st_2582",
+    "source": "NAB",
+    "train_end": 757,
+    "matches": [
+      {
+        "file": "realAWSCloudwatch/elb_request_count_8c0756.csv",
+        "offset": 1001,
+        "original_points": 4032,
+        "max_abs_value_difference": 0.0,
+        "raw_window_label_mismatch_ranges": [
+          [
+            2581,
+            2582
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          0
+        ],
+        "affected_train": 0,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "028_NAB_id_28_Facility_tr_1007_1st_3447",
+    "source": "NAB",
+    "train_end": 1007,
+    "matches": [
+      {
+        "file": "realAWSCloudwatch/ec2_cpu_utilization_24ae8d.csv",
+        "offset": 1,
+        "original_points": 4032,
+        "max_abs_value_difference": 2.220446049250313e-16,
+        "raw_window_label_mismatch_ranges": [
+          [
+            3446,
+            3447
+          ],
+          [
+            3647,
+            3676
+          ]
+        ],
+        "probation_end_original_exclusive": 604,
+        "proposed_unknown_range": [
+          0,
+          603
+        ],
+        "affected_train": 603,
+        "affected_test": 0
+      }
+    ]
+  },
+  {
+    "id": "169_Daphnet_id_1_HumanActivity_tr_9693_1st_20732",
+    "source": "Daphnet",
+    "train_end": 9693,
+    "matches": [
+      {
+        "file": "dataset_fog_release/dataset/S03R02.txt",
+        "column_zero_based": 4,
+        "selection": "all",
+        "offset": 0,
+        "original_start": 0,
+        "original_end_inclusive": 38773,
+        "outside_experiment_points": 22133,
+        "proposed_unknown_ranges": [
+          [
+            0,
+            16639
+          ],
+          [
+            33280,
+            38774
+          ]
+        ],
+        "affected_train": 9693,
+        "affected_test": 12440,
+        "binary_label_mismatch_count": 0
+      }
+    ]
+  }
+]

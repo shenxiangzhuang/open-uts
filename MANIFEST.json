@@ -1,0 +1,45 @@
+{
+  "status": "prepared_not_published",
+  "baseline_dataset": "MathewShen/tsb-ad-u",
+  "baseline_revision": "c6aded12d5657b96d83595500eb60c1412c8c3a2",
+  "rows": 126,
+  "sources": {
+    "CATSv2": 1,
+    "Daphnet": 1,
+    "LTDB": 8,
+    "MGAB": 8,
+    "MITDB": 7,
+    "NAB": 23,
+    "OPPORTUNITY": 27,
+    "SMD": 33,
+    "SVDB": 18
+  },
+  "columns": [
+    "id",
+    "source",
+    "values",
+    "labels",
+    "train_end",
+    "original_sha256",
+    "labels_corrected"
+  ],
+  "files": {
+    "data/test.parquet": {
+      "sha256": "dacc0bd31bc8a30bc0569c5b82e3bd74ce5cf2724d69b8ff3c92fe968fb20276",
+      "rows": 126,
+      "points": 10691121,
+      "train_unknown": 21633,
+      "test_unknown": 12440
+    }
+  },
+  "catsv2_verification": {
+    "source_file_sha256": "259b5849a134e3318ed5e683bca0582d8c1005d1a008bb86094c8131ca1b2ff3",
+    "source_column": "bso2",
+    "source_half_open_range": [
+      4300000,
+      4600000
+    ],
+    "max_absolute_observation_difference": 7.105427357601002e-15,
+    "original_labels_match_source_y": true
+  }
+}

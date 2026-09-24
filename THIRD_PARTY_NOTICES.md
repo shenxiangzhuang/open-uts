@@ -1,0 +1,17 @@
+# Source licenses and attribution
+
+This package is a transformed subset of nine datasets assembled through TSB-AD/TSB-AD-U. **No single blanket license covers the underlying observations and labels.** The `license: other` Hub metadata reflects the mixed source terms. The transformations here consist of selecting and cropping univariate sequences, converting them to row-based Parquet, retaining the original labels, and adding `labels_corrected` where the source evidence identifies unannotated positions. The original creators have not endorsed this package.
+
+| Source | Credit and source | License and notice |
+| --- | --- | --- |
+| NAB | Numenta, [NAB at pinned revision](https://github.com/numenta/NAB/tree/ea702d75cc2258d9d7dd35ca8e5e2539d71f3140) | MIT; retain [Numenta's full license and copyright](LICENSES/NAB-MIT.txt). The NAB initialization region was changed to null in `labels_corrected` where applicable. |
+| MGAB | Markus Thill, [MGAB at pinned revision](https://github.com/MarkusThill/MGAB/tree/acb4b816216c99cdb3721be620459a8a510c2640) | [CC0 1.0](LICENSES/MGAB-CC0.txt); source credit is retained for traceability. |
+| SMD | NetManAIOps-SMD, [ServerMachineDataset at pinned revision](https://github.com/NetManAIOps/OmniAnomaly/tree/7fb0e0acf89ea49908896bcc9f9e80fcfff6baf4/ServerMachineDataset) | MIT; retain [its dataset-specific full license and copyright](LICENSES/SMD-MIT.txt). |
+| Daphnet | Daniel Roggen, Meir Plotnik, Jeff Hausdorff, [UCI Daphnet Freezing of Gait](https://archive.ics.uci.edu/dataset/245/daphnet+freezing+of+gait), [DOI 10.24432/C56K78](https://doi.org/10.24432/C56K78) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Experimental-outside points were restored to null in `labels_corrected`. |
+| OPPORTUNITY | Daniel Roggen, Alberto Calatroni, Long-Van Nguyen-Dinh, Ricardo Chavarriaga, Hesam Sagha, [UCI OPPORTUNITY](https://archive.ics.uci.edu/dataset/226/opportunity+activity+recognition), [DOI 10.24432/C5M027](https://doi.org/10.24432/C5M027) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). |
+| CATSv2 | Patrick Fleith / Solenix Engineering GmbH, [Controlled Anomalies Time Series (CATS) Dataset](https://doi.org/10.5281/zenodo.8338435) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). `bso2[4,300,000:4,600,000]` was selected; original event labels match Zenodo's `y`. |
+| MITDB | [MIT-BIH Arrhythmia Database v1.0.0](https://physionet.org/content/mitdb/1.0.0/), [DOI 10.13026/C2F305](https://doi.org/10.13026/C2F305), PhysioNet | [ODC-By 1.0](https://opendatacommons.org/licenses/by/1-0/); retain database source, license, and attribution. |
+| SVDB | [MIT-BIH Supraventricular Arrhythmia Database v1.0.0](https://physionet.org/content/svdb/1.0.0/), [DOI 10.13026/C2V30W](https://doi.org/10.13026/C2V30W), PhysioNet | [ODC-By 1.0](https://opendatacommons.org/licenses/by/1-0/); retain database source, license, and attribution. |
+| LTDB | [Long-Term ST Database v1.0.0](https://physionet.org/content/ltdb/1.0.0/), [DOI 10.13026/C2KS3F](https://doi.org/10.13026/C2KS3F), PhysioNet | [ODC-By 1.0](https://opendatacommons.org/licenses/by/1-0/); retain database source, license, and attribution. |
+
+For the three PhysioNet datasets, also credit [PhysioNet](https://physionet.org/about/database/) and follow each source page's recommended citation. The ODC-By license applies to their database files, according to each versioned PhysioNet record. Rights in a constituent source are not replaced by the license of an aggregator or this package.

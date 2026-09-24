@@ -1,0 +1,287 @@
+{
+  "base_revision": "c6aded12d5657b96d83595500eb60c1412c8c3a2",
+  "status": "public_release_corrections_only",
+  "interval_convention": "zero-based half-open [start,end)",
+  "changes": [
+    {
+      "id": "001_NAB_id_1_Facility_tr_1007_1st_2014",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          603
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "002_NAB_id_2_WebService_tr_1500_1st_4106",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          749
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "005_NAB_id_5_Traffic_tr_594_1st_1645",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          356
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "006_NAB_id_6_Traffic_tr_2579_1st_5839",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          749
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "008_NAB_id_8_Synthetic_tr_1007_1st_2734",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          603
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "009_NAB_id_9_Traffic_tr_500_1st_438",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          323
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "010_NAB_id_10_WebService_tr_500_1st_271",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          229
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "011_NAB_id_11_Facility_tr_1007_1st_1526",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          603
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "013_NAB_id_13_Traffic_tr_623_1st_2084",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          373
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "014_NAB_id_14_WebService_tr_500_1st_1045",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          229
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "015_NAB_id_15_Synthetic_tr_1007_1st_2787",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          603
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "016_NAB_id_16_Environment_tr_1816_1st_3540",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          749
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "017_NAB_id_17_Synthetic_tr_1007_1st_1805",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          603
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "018_NAB_id_18_Facility_tr_500_1st_669",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          281
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "019_NAB_id_19_Facility_tr_1007_1st_1171",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          603
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "020_NAB_id_20_Synthetic_tr_1007_1st_2679",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          603
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "022_NAB_id_22_Facility_tr_1007_1st_2980",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          603
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "023_NAB_id_23_Facility_tr_4512_1st_16551",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          749
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "024_NAB_id_24_Synthetic_tr_1007_1st_2787",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          603
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "025_NAB_id_25_WebService_tr_3958_1st_4614",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          749
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "026_NAB_id_26_Traffic_tr_624_1st_2261",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          374
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "028_NAB_id_28_Facility_tr_1007_1st_3447",
+      "source": "NAB",
+      "reason": "source_labeling_excludes_probation",
+      "ranges": [
+        [
+          0,
+          603
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    },
+    {
+      "id": "169_Daphnet_id_1_HumanActivity_tr_9693_1st_20732",
+      "source": "Daphnet",
+      "reason": "outside_original_experiment",
+      "ranges": [
+        [
+          0,
+          16639
+        ],
+        [
+          33280,
+          38774
+        ]
+      ],
+      "evidence": "source-mappings.json"
+    }
+  ]
+}
