@@ -1,5 +1,5 @@
 ---
-pretty_name: TSB-AD-U Open 126
+pretty_name: Open-UTS (126 Univariate Time Series)
 language:
 - zxx
 license: other
@@ -9,9 +9,9 @@ tags:
 - tsb-ad
 ---
 
-# TSB-AD-U Open 126
+# Open-UTS: 126 Univariate Time Series
 
-This proposed public release contains **126 complete univariate time series from nine original datasets**. All 126 are from the Eval 350 collection of the pinned, private [TSB-AD-U baseline](https://huggingface.co/datasets/MathewShen/tsb-ad-u), revision `c6aded12d5657b96d83595500eb60c1412c8c3a2`. It is an unofficial redistribution of selected [TSB-AD](https://github.com/TheDatumOrg/TSB-AD) series, not a new blind benchmark. The other 696 series from the 822-series baseline are not in this release.
+Open-UTS contains **126 complete univariate time series from nine original datasets**. All 126 are from the Eval 350 collection of the pinned, private [TSB-AD-U baseline](https://huggingface.co/datasets/MathewShen/tsb-ad-u), revision `c6aded12d5657b96d83595500eb60c1412c8c3a2`. It is an unofficial redistribution of selected [TSB-AD](https://github.com/TheDatumOrg/TSB-AD) series, not a new blind benchmark. The other 696 series from the 822-series baseline are not in this release.
 
 The data have **mixed licenses**, not a single license granted by this repository. Read [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) before reuse; the original source licenses and attribution requirements still apply. The selection excludes GPL, noncommercial, permission-dependent, and insufficiently documented sources from this particular release.
 
@@ -40,7 +40,7 @@ Example usage after publication:
 ```python
 from datasets import load_dataset
 
-rows = load_dataset("MathewShen/tsb-ad-u-open", split="test", revision="PINNED_COMMIT")
+rows = load_dataset("MathewShen/open-uts", split="test", revision="PINNED_COMMIT")
 row = rows[0]
 train_values = row["values"][:row["train_end"]]
 test_values = row["values"][row["train_end"]:]
@@ -67,4 +67,4 @@ The original values and labels of the CATSv2 row were independently matched to `
 
 ## Status and provenance
 
-This directory is a **prepared local release candidate**, not evidence that a GitHub repository or Hugging Face dataset has already been published. Its original and corrected labels come from a broader, still ongoing source audit. The corrections in this subset are limited to NAB and Daphnet. A public release does not certify the excluded sources or finish the requested human annotations.
+The original and corrected labels come from a broader, still ongoing source audit. The corrections in this subset are limited to NAB and Daphnet. This subset does not certify the excluded sources or finish the requested human annotations.
